@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h1>Abre la consola</h1>
+    <script>
+        const employees = [
+            { name: "John", salary: 50000, department: "IT" },
+            { name: "Jane", salary: 60000, department: "HR" },
+            { name: "Bob", salary: 55000, department: "IT" },
+            { name: "Sophie", salary: 75000, department: "HR" },
+            { name: "Mike", salary: 65000, department: "IT" },
+            { name: "Emily", salary: 80000, department: "HR" },
+            { name: "David", salary: 70000, department: "IT" },
+        ];
+        console.log(employees)
+
+        function detectorPobres(x){
+                return x.filter(x => x.salary <= 60000 && x.department == "IT")
+        }
+    </script>
+</body>
+</html>
